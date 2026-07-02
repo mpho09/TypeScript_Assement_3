@@ -10,7 +10,7 @@ export function Header() {
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sign-brand">The Neighborhood Ledger</div>
           </Link>
-          <div className="sign-est">EST. 2026 · DIST. 04 · MEMBERS ONLY FOR CHECKOUT</div>
+          <div className="sign-est">EST. 2026</div>
         </div>
         <nav className="sign-nav">
           <NavLink to="/">Catalog</NavLink>

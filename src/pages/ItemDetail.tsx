@@ -91,7 +91,7 @@ export function ItemDetail() {
           </button>
           {!user && bookable && (
             <div style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: 12, color: 'var(--pencil)', marginTop: 10 }}>
-              You'll need a library card to check items out.
+              {/* You'll need a library card to check items out. */}
             </div>
           )}
         </div>
