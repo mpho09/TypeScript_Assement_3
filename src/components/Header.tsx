@@ -22,7 +22,7 @@ export function Header() {
               <a href="#logout" onClick={(e) => { e.preventDefault(); logout(); }}>Sign out</a>
             </>
           ) : (
-            <NavLink to="/login">Get a card</NavLink>
+            <NavLink to="/login">Login</NavLink>
           )}
         </nav>
       </div>
